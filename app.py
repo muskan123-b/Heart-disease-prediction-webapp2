@@ -17,7 +17,7 @@ with col2:
 with col3:
     st.write(' ')
 
-heart_model = pickle.load(open('C:/Users/muska/Desktop/Heart disease model/pipe.pkl','rb'))
+heart_model = pickle.load(open('C:/Users/muska/Desktop/heart-disease/pipe.pkl','rb'))
 
 def main():
     
