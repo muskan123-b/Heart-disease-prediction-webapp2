@@ -62,12 +62,12 @@ def main():
     
     # creating a button for Prediction
     if st.button("Click here to get the result"):
-     heart_pred = heart_model.predict([[age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal]])
+          heart_pred = heart_model.predict([[age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal]])
 
-     if (heart_pred[0] == 1):
-           st.error('Warning! You have high risk of getting a heart attack!')
+    if (heart_pred[0] == 1):
+        st.error('Warning! You have high risk of getting a heart attack!')
     else:
-           st.success('You have lower risk of getting a heart disease!')
+        st.success('You have lower risk of getting a heart disease!')
           
 if __name__ == '__main__':
     main()
