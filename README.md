@@ -7,8 +7,11 @@ Heart disease is the leading cause of death worldwide, accounting for one third 
 <img src="https://user-images.githubusercontent.com/73715927/180886155-645d8bc1-d396-4b7c-a7eb-b7507a9615f1.jpg" width="450" height="280">
 
 # About Dataset
-Heart Disease Cleveland UCI dataset has been used in this project which is available on Kaggle. The link of the dataset used is: https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
+Heart Disease Cleveland UCI dataset has been used in this project which is available on Kaggle. 
+The link of the dataset used is: https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
+
 There are 297 records of patients, with no null values. Also there are 13 attributes in the dataset as follows.
+
 1.	age: age in years
 2.	sex: sex (1 = male; 0 = female)
 3.	cp: chest pain type -- Value 0: typical angina -- Value 1: atypical angina -- Value 2: non-anginal pain -- Value 3: asymptomatic
@@ -25,4 +28,5 @@ There are 297 records of patients, with no null values. Also there are 13 attrib
 
 
 I've deployed the machine learning model using streamlit library of python. The code for the web app can be found in the "app.py" file. The link of the web app is given below:
+
 https://muskan123-b-heart-disease-prediction-webapp3-app-lb8dp5.streamlitapp.com/
